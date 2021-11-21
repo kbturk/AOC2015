@@ -57,8 +57,6 @@ def extra_wrapping(line: str) -> str:
            wrapping += c
     return wrapping
 
-
-
 def main(argv: List[str]) -> int:
     arg = arg_parser().parse_args(argv[1:])
     total = 0
